@@ -4,8 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
-    <p>Hello World</p>
+    <div class="addTodo">
+        <form method="post">
+            <input type="text" placeholder="Enter Task..">
+            <button type="button" onclick="addTodo();">Add Task</button>
+        </form>
+    </div> <br><br>
+
+    <div class="showTodo">
+        Todo List :-
+    </div>
+
+    <div class="list">
+        <!-- List will be rendered here.. -->
+    </div>
+
+    <script src="/scripts/app.js"></script>
 </body>
 </html>
